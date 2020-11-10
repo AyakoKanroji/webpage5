@@ -1,0 +1,50 @@
+#sky {
+background-color:#edafb4;
+animation-name:sky;
+animation-duration:10s;
+animation-iteration-count:infinite;
+}
+
+#sky {
+background-color:#edafb4;
+animation-name:sky;
+animation-duration:20s;
+animation-iteration-count:infinite;
+}
+
+.sun{
+    animation-name:sun;
+    animation-duration:20s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes sun{
+    50%{
+        transform:translate(80px,195px);
+        fill:#ff7f42;
+    }
+}
+
+@keyframes sky{
+    50%{
+        background-color:#ee5d6c;
+    }
+}
+
+#container{
+display: flex;
+justify-content: center;
+}
+
+body{
+  background-color:#edafb4;
+  animation-name:sky;
+  animation-duration:10s;
+  animation-iteration-count:infinite;
+
+  background-color:#edafb4;
+  animation-name:sky;
+  animation-duration:20s;
+  animation-iteration-count:infinite;
+  
+}
